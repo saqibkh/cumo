@@ -8,6 +8,8 @@ name: GPU simulator tests
 
 on:
   workflow_dispatch: {}
+  push:
+    branches: [verify-gpu-sim]
   pull_request:
     paths:
       - 'ext/**'
